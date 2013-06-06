@@ -15,7 +15,8 @@ Gem::Specification.new do |s|
   s.require_path = 'lib'
   s.requirements << 'none'
 
-  s.add_dependency('spree_core', '~> 1.1')
+  s.add_dependency('spree_core', '~> 2.0.0')
+  s.add_dependency('spree_backend', '~> 2.0.0')
 
   s.add_development_dependency('sqlite3')
   s.add_development_dependency('capybara', '~> 1.1')
@@ -23,5 +24,5 @@ Gem::Specification.new do |s|
   s.add_development_dependency('shoulda-matchers')
   s.add_development_dependency('rspec-rails', '~> 2.11')
   s.add_development_dependency 'simplecov'
-  s.add_development_dependency('factory_girl_rails', '~> 1.7.0')
+  s.add_development_dependency('factory_girl_rails', '~> 4.2.1')
 end
